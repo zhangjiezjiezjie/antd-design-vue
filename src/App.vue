@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a-button>按钮</a-button>
+    <!-- router中的文件要显示的位置 -->
     <router-view></router-view>
   </div>
 </template>
