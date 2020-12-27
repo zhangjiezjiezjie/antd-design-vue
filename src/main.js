@@ -7,13 +7,16 @@ import store from "./store";
 //引入ant-design-vue less样式
 // import "ant-design-vue/dist/antd.less";
 // 按需引入后，样式也不用单独来写 === 按需引入用到babel -- 安装babel-plugin-import
-import { Button, Layout, Icon } from "ant-design-vue";
+import { Button, Layout, Icon, Menu, Drawer, Radio } from "ant-design-vue";
 
 Vue.config.productionTip = false;
 
 Vue.use(Button);
 Vue.use(Layout);
 Vue.use(Icon);
+Vue.use(Menu);
+Vue.use(Drawer);
+Vue.use(Radio);
 
 new Vue({
   router,
